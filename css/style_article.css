@@ -1,0 +1,48 @@
+.articleHeading{
+	text-align: left;
+	margin-left: 5%;
+	font-weight: 500;
+	font-size: 130%;
+}
+main > .flexArticle{
+	flex-direction: column;
+	align-items: center;
+
+}
+
+div[class^=articleFlexChildren]{
+	width: 45%;
+	margin-bottom: 7%;
+	position: relative;
+	border: 3px solid black;
+}
+div[class=articleFlexChildren2]{
+width: 35%;
+}
+div[class=articleFlexChildren3]{
+width: 55%;
+
+}
+.flexArticle  img{
+	width: 100%;
+}
+.flexArticle p {
+    /* text box on top of img */
+    padding: 2% 2% 2% 2%;
+    background-color: #b5b1b1;
+    color: black;
+    bottom: -18%;
+    left: -1%;
+    position: absolute;
+    width: 96.5%;
+    font-size: 1.35em;
+    border: 3px solid black;
+}
+.articleFlexChildren2 > p{
+	bottom: -7%;
+}
+
+.articleFlexChildren3 > p{
+	bottom: -11%;
+
+}

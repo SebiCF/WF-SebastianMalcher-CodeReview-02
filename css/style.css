@@ -4,7 +4,7 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
     margin: 0px;
     background-color: #191919;
-    word-spacing: -2px;
+    word-spacing: -1px;
 }
 
 .divSite {
@@ -89,7 +89,7 @@ div[class=flexReverse]{
     font-size: 1.1em;
 }
 div[class=flexDown]{       
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: white;
    }
 
@@ -97,9 +97,8 @@ div[class=flexDown]{
     border-top: 2px solid black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 3%;
-    width: 38%;
-    margin-top: 8%;
-    margin-bottom: 8%;
+    width: 35%;
+    margin: 8% 3% 8% 3%;
     word-spacing: 0.5px;
 }
 .divFlexChildrenBoxDown hr{
@@ -221,13 +220,14 @@ p[id=descriptionPa]{
 }
 
 footer[class^=footer] {
-    height: 130px;
+    height: 170px;
     background-color: #171717;
 }
 
 div[class=footerCopyRight] {
     color: white;
     text-align: center;
+    margin-top: 2%;
 }
 footer > .navbar{
     background-color: #171717;
