@@ -134,7 +134,7 @@ div[class=flexDown]{
 
 }
 
-input[type=text],
+input[type=text], input[type=number],
 select {
     /* adjusts text input size*/
     height: 60%;
