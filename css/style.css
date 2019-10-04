@@ -1,13 +1,13 @@
 /* site settings*/
 body {
-    /*sets font family, no margin so it fills correctly*/
+    /*sets font family, no margin to fit correctly*/
     font-family: 'PT Sans Narrow', sans-serif;
     margin: 0px;
     background-color: #191919;
 }
 
 .divSite {
-    /* limits content size*/
+    /* creates side bars for desktop/laptop resolutions*/
     max-width: 850px;
     margin: 0 auto;
     background-color: #DEDEDE;
@@ -36,7 +36,7 @@ nav[class^=navbar] {
     width: 100%;
     height: 33px;
     border-radius: 0px;
-
+    font-size: 1.1em;
 }
 
 ul {
@@ -47,7 +47,7 @@ ul {
 
 li {
     float: left;
-    padding: 3px 2px 0px 4px
+    padding: 2px 2px 0px 4px
 }
 
 li a {
@@ -57,7 +57,40 @@ li a {
     text-decoration: none;
 }
 
-/* main settings*/
+/* main content settings*/
 #BackImageMain {
     width: 100%;
 }
+
+.form{
+    position: relative;
+    width: 85%;
+    background-color: white;
+    opacity: 0.4;
+    margin: -55% 7.5% 1% 7.5%;
+    border: 2px solid slategrey;
+
+}
+
+div[class^=flex]{/*standard flex display*/
+    display: flex;
+    justify-content: center;
+
+}/* paragraph and text adjustments*/
+.textOnImg{
+font-size: 200%;
+    color: white;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 1.7%;
+}
+.formHeader{
+    font-size: 3em;
+    margin: 2% 1% 2% 1%;
+    line-height: 95%;
+    text-align: center;
+}
+.fakebold/*adjusts text size to look "like bold"*/
+{ 
+    font-size: 1.4em;
+    }
