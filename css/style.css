@@ -4,6 +4,7 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
     margin: 0px;
     background-color: #191919;
+    word-spacing: -2px;
 }
 
 .divSite {
@@ -11,6 +12,7 @@ body {
     max-width: 850px;
     margin: 0 auto;
     background-color: #DEDEDE;
+    color: #2C2C2C;
 }
 
 /* header settings*/
@@ -39,18 +41,18 @@ nav[class^=navbar] {
     font-size: 1.1em;
 }
 
-ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     margin-left: -3.1%;
 }
 
-li {
+.navbar li {
     float: left;
     padding: 2px 2px 0px 4px
 }
 
-li a {
+.navbar li a {
     color: white;
     padding-left: 3px;
     font-size: 120%;
@@ -62,35 +64,175 @@ li a {
     width: 100%;
 }
 
-.form{
+
+
+div[class^=flex] {
+    /*standard flex display*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+div[class=flexColumn]{
+    flex-direction: column;
+}
+div[class=flexReverse]{
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+}
+.divFlexChildren {
+    width: 33%;
+    padding: 1% 4% 2% 6%;
+    margin: 8px 0;
+    font-size: 1.1em;
+}
+div[class=flexDown]{       
+    justify-content: space-around;
+    background-color: white;
+   }
+
+.divFlexChildrenBoxDown{
+    border-top: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 3%;
+    width: 38%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    word-spacing: 0.5px;
+}
+.divFlexChildrenBoxDown hr{
+    border: 1px solid rgb(222,222,222,0.4);
+}
+
+.flexTextInput {
+    justify-content: space-around;
+
+}
+/* submit button adjustments*/
+.flexSubmit {
+    padding: 1% 1% 6% 1%;
+}
+.flexSubmit > button{
+    width: 30%;
+    font-size: 1.7em;
+    border-radius: 8px;
+    background-color: #449236;
+    border: none;
+    color: white;
+    letter-spacing: -1px;
+    line-height: 111%;
+}
+
+/* form settings */
+.form {
     position: relative;
     width: 85%;
-    background-color: white;
-    opacity: 0.4;
+    background-color: rgb(222, 222, 222, 0.8);
     margin: -55% 7.5% 1% 7.5%;
     border: 2px solid slategrey;
 
 }
 
-div[class^=flex]{/*standard flex display*/
-    display: flex;
-    justify-content: center;
+input[type=text],
+select {
+    /* adjusts text input size*/
+    height: 60%;
+    width: 90%;
+    font-size: 1.1em;
+}
 
-}/* paragraph and text adjustments*/
-.textOnImg{
-font-size: 200%;
+.divFlexChildren>select {
+    /* adjusts text select size*/
+    width: 91.5%;
+    height: 72%;
+}
+/* list adjustments*/
+
+.divFlexChildrenBoxDown > ul li:before{
+  content:'\2713';
+  display:inline-block;
+  color:green;
+  padding:0 6px 0 0;
+  }
+  .divFlexChildrenBoxDown > ul li{
+    list-style-type:none;
+    font-size:1em;
+    padding-bottom: 3%;    
+}
+.divFlexChildrenBoxDown > ul{
+    padding-left: 0%;
+}
+
+/* paragraph and text adjustments*/
+.textOnImg {
+    font-size: 200%;
     color: white;
     position: absolute;
     margin-top: 2%;
     margin-left: 1.7%;
 }
-.formHeader{
+
+.formHeader {
     font-size: 3em;
-    margin: 2% 1% 2% 1%;
+    margin: 3% 1% 3% 1%;
     line-height: 95%;
     text-align: center;
+    
 }
-.fakebold/*adjusts text size to look "like bold"*/
-{ 
+#calcResult{
+    font-size: 2em;
+    color: #449236;
+    margin-bottom: 7%;
+}
+p[id^=descriptionP]{
     font-size: 1.4em;
-    }
+    text-align: center;
+    margin-top: 0;
+
+}
+p[id=descriptionPa]{
+    font-size: 2.3em;
+    margin-bottom: -4%;
+}
+
+.opacityshow {
+    color: rgb(44, 44, 44, 1);
+}
+.divFlexChildrenBoxDown h3{
+    margin: 0px;
+    color: #55809E;
+    font-size: 153%;
+    font-weight: 500;
+}
+.divFlexChildrenBoxDown h4{
+    margin: 0px;
+}
+.divFlexChildrenBoxDown p{
+    margin: -1% 0% 0% 0%;
+        font-size: 103%;
+}
+
+.fakebold
+/*adjusts text size to look "like bold"*/
+    {
+    font-size: 1.4em;
+}
+
+footer[class^=footer] {
+    height: 130px;
+    background-color: #171717;
+}
+
+div[class=footerCopyRight] {
+    color: white;
+    text-align: center;
+}
+footer > .navbar{
+    background-color: #171717;
+}
+
+#footerlogo {
+    margin-top: 17%;
+}
