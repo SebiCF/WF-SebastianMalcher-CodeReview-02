@@ -5,19 +5,22 @@
     <title></title>
     <meta name="viewport" width=device-width initial-scale=1.0>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="./css/style.css">
-     <link rel="stylesheet" href="./css/media_queries.css">
-    <script src="./js/script.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media_queries.css">
+    <script src="./js/script.js" type="text/javascript" charset="utf-8" async defer></script>
 </head>
 
 <body>
     <div class="divSite">
         <header id="header">
             <div class="headerLogos">
-                <a href="index.html" style="margin-left:-5%;"> <!-- adjusts logo placement -->
+                <a href="index.html" style="margin-left:-5%;">
+                    <!-- adjusts logo placement -->
                     <img src="./img/logo.png" alt="InsuranceCF logo" title="InsuranceCF logo">
                 </a>
-                <img src="./img/banner.png" alt="banner1" title="banner1" id="dishidden">
+                <a href="https://www.codefactory.wien/" id="dishidden">
+                    <img src="./img/banner.png" alt="banner1" title="banner1" id="disHidden">
+                </a>
             </div>
             <nav class="navbar">
                 <ul>
@@ -27,71 +30,76 @@
             </nav>
         </header>
         <main>
-        	<div class="fakebold">
-        		<p class="textOnImg">Car Insurance</h1>
-        		</div>
-        		<img id="BackImageMain"src="./img/traffic-332857_1920.jpg" alt="">
-                <form class="form">
-                    <div class="flex"><!--flex box for form header-->
-                        <p class="formHeader opacityshow">Great coverage begins<br>with a custom quote</p>
-                    </div>
-                    <div class="flexTextInput"><!--flex box for form text input-->
-                        <div class="divFlexChildren">
-                            <label for="name">Name</label><br>
-                                <input type="text" id="name">
-                        </div> 
-                        <div class="divFlexChildren">
-                            <label for="age">Age</label><br>
-                                <input type="number" id="age">
-                        </div>  
-                        <div class="divFlexChildren">
-                            <label for="country">Country</label><br>
-                               <select id="country" name="country">
-                                 <option value="Austria">Austria</option>
-                                 <option value="Hungary">Hungary</option>
-                                 <option value="Greece">Greece</option>
-                               </select>
-                        </div>  
-                        <div class="divFlexChildren">
-                            <label for="horsePower">Horsepower of your car</label><br>
-                                <input type="number" id="horsePower">
-                        </div>
-
-                    </div>
-                    <div class="flexSubmit">
-                        <button type="button" onclick="calculateInsurance()">Calculate</button>
-                    </div>
-                    <div class="flex"><!--flex box for form header-->
-                        <p id="calcResult" class="formHeader opacityshow">Printed calculation goes here</p>
-                    </div>
-
-                </form>
-        		<div class="flexColumn">
-                    <p class="formheader" id="descriptionPa">Un-complicating car coverage</p><p class="formheader" id="descriptionP" > <br>Understanding your coverage options shouldn't be so hard <br>We'll guide you through available coverage types, <br> starting with who and what is covered</p>
+            <div class="fakebold">
+                <p class="textOnImg">Car Insurance</h1>
+            </div>
+            <img class="BackImageMain" id="visHiddenSmall" src="./img/traffic-332857_1920.jpg" alt="">
+            <form class="form">
+                <div class="flex">
+                    <!--flex box for form header-->
+                    <p id="resizeSmaller" class="formHeader opacityshow">Great coverage begins<br>with a custom quote</p>
                 </div>
-        	   <div class="flexDown">
-                   <div class="divFlexChildrenBoxDown">
-                       <h3>What comes standard</h3><p>The coverage you need</p>
-                       <ul>
-                           <li>Bodily Injury Liability</li>
-                           <li>Property Damage</li>
-                           <li>Medical Payments</li>
-                       </ul>
-                       <hr>
-                       <h4>Benefits</h4><p>12 month rate guarantee | 24/7 customer<br>service | Lifetime Repair Guarantee</p>
-                   </div>
-                  <div class="divFlexChildrenBoxDown">
-                      <h3>Add-on protection & coverage</h3><p>For peace of mind</p>
-                      <ul>
-                          <li>Better Car Replacement</li>
-                          <li>Towing & Labor</li>
-                          <li>Rental Car Coverage</li>
-                      </ul>
-                      <hr>
-                      <h4>Earned Benefits</h4><p>Accident Forgiveness¹ | New Car<br>Replacement</p>
-                  </div>
-                   
-               </div>
+                <div class="flexTextInput">
+                    <!--flex box for form text input-->
+                    <div class="divFlexChildren">
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="divFlexChildren">
+                        <label for="age">Age</label><br>
+                        <input type="number" id="age">
+                    </div>
+                    <div class="divFlexChildren">
+                        <lab el for="country">Country</label><br>
+                            <select id="country" name="country">
+                                <option value="Austria">Austria</option>
+                                <option value="Hungary">Hungary</option>
+                                <option value="Greece">Greece</option>
+                            </select>
+                    </div>
+                    <div class="divFlexChildren">
+                        <label for="horsePower">Horsepower of car</label><br>
+                        <input type="number" id="horsePower">
+                    </div>
+                </div>
+                <div class="flexSubmit">
+                    <button type="button" onclick="calculateInsurance()" id="onEnter">Calculate</button>
+                </div>
+                <div class="flex">
+                    <!--flex box for form header-->
+                    <p id="calcResult" class="formHeader opacityshow">Your price goes here</p>
+                </div>
+            </form>
+            <div id="disHiddenSmall" class="flexColumn">
+                <p id="descriptionPa">Un-complicating car coverage</p>
+                <p id="descriptionP"> <br>Understanding your coverage options shouldn't be so hard <br>We'll guide you through available coverage types, <br> starting with who and what is covered</p>
+            </div>
+            <div class="flexDown">
+                <div class="divFlexChildrenBoxDown">
+                    <h3>What comes standard</h3>
+                    <p>The coverage you need</p>
+                    <ul>
+                        <li>Bodily Injury Liability</li>
+                        <li>Property Damage</li>
+                        <li>Medical Payments</li>
+                    </ul>
+                    <hr>
+                    <h4>Benefits</h4>
+                    <p>12 month rate guarantee | 24/7 customer<br>service | Lifetime Repair Guarantee</p>
+                </div>
+                <div class="divFlexChildrenBoxDown">
+                    <h3>Add-on protection & coverage</h3>
+                    <p>For peace of mind</p>
+                    <ul>
+                        <li>Better Car Replacement</li>
+                        <li>Towing & Labor</li>
+                        <li>Rental Car Coverage</li>
+                    </ul>
+                    <hr>
+                    <h4>Earned Benefits</h4>
+                    <p>Accident Forgiveness¹ | New Car<br>Replacement</p>
+                </div>
+            </div>
         </main>
         <footer class="footer">
             <nav class="navbar">
@@ -101,15 +109,14 @@
                 </ul>
             </nav>
             <div class="flexReverse">
-            <a href="https://www.codefactory.wien/">
-                <img src="./img/logo-inv.png" id="footerlogo" alt="NewspaperCF logo" title="NewspaperCF logo"></a>
+                <a href="https://www.codefactory.wien/">
+                    <img src="./img/logo-inv.png" id="footerlogo" alt="NewspaperCF logo" title="NewspaperCF logo"></a>
             </div>
-       
-        <div class="footerCopyRight">
-            Sebastian Malcher, CodeFactory 2019
-        </div> 
-    </footer>
-    </div>
+            <div class="footerCopyRight">
+                Sebastian Malcher, CodeFactory 2019
+            </div>
+        </footer>
+        </div>
 </body>
 
 </html>

@@ -60,61 +60,67 @@ nav[class^=navbar] {
 }
 
 /* main content settings*/
-#BackImageMain {
+.BackImageMain {
     width: 100%;
 }
-
-
 
 div[class^=flex] {
     /*standard flex display*/
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
-div[class=flexColumn]{
+div[class=flexColumn] {
     flex-direction: column;
 }
-div[class=flexReverse]{
+
+div[class=flexReverse] {
     flex-direction: row-reverse;
     justify-content: flex-start;
     align-items: center;
 }
+
 .divFlexChildren {
     width: 33%;
     padding: 1% 4% 2% 6%;
     margin: 8px 0;
     font-size: 1.1em;
 }
-div[class=flexDown]{       
+
+div[class=flexDown] {
+    /* adjusts 2nd flexbox*/
     justify-content: space-between;
     background-color: white;
-   }
+}
 
-.divFlexChildrenBoxDown{
+.divFlexChildrenBoxDown {
+    /* adjusts cgildren of 2nd flexbox*/
     border-top: 2px solid black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
     padding: 3%;
     width: 35%;
     margin: 8% 3% 8% 3%;
     word-spacing: 0.5px;
 }
-.divFlexChildrenBoxDown hr{
-    border: 1px solid rgb(222,222,222,0.4);
+
+.divFlexChildrenBoxDown hr {
+    border: 1px solid rgb(222, 222, 222, 0.4);
 }
 
 .flexTextInput {
+    /* flexbox for textinputs*/
     justify-content: space-around;
 
 }
+
 /* submit button adjustments*/
 .flexSubmit {
     padding: 1% 1% 6% 1%;
 }
-.flexSubmit > button{
-    width: 30%;
+
+.flexSubmit>button {
     font-size: 1.7em;
     border-radius: 8px;
     background-color: #449236;
@@ -131,10 +137,12 @@ div[class=flexDown]{
     background-color: rgb(222, 222, 222, 0.8);
     margin: -55% 7.5% 1% 7.5%;
     border: 2px solid slategrey;
+    border-radius: 3px;
 
 }
 
-input[type=text], input[type=number],
+input[type=text],
+input[type=number],
 select {
     /* adjusts text input size*/
     height: 60%;
@@ -147,20 +155,22 @@ select {
     width: 91.5%;
     height: 72%;
 }
-/* list adjustments*/
 
-.divFlexChildrenBoxDown > ul li:before{
-  content:'\2713';
-  display:inline-block;
-  color:green;
-  padding:0 6px 0 0;
-  }
-  .divFlexChildrenBoxDown > ul li{
-    list-style-type:none;
-    font-size:1em;
-    padding-bottom: 3%;    
+/* list adjustments in 2nd flexbox*/
+.divFlexChildrenBoxDown>ul li:before {
+    content: '\2713';
+    display: inline-block;
+    color: green;
+    padding: 0 6px 0 0;
 }
-.divFlexChildrenBoxDown > ul{
+
+.divFlexChildrenBoxDown>ul li {
+    list-style-type: none;
+    font-size: 1em;
+    padding-bottom: 3%;
+}
+
+.divFlexChildrenBoxDown>ul {
     padding-left: 0%;
 }
 
@@ -178,20 +188,23 @@ select {
     margin: 3% 1% 3% 1%;
     line-height: 95%;
     text-align: center;
-    
 }
-#calcResult{
+
+#calcResult {
     font-size: 2em;
     color: #449236;
     margin-bottom: 7%;
+    visibility: hidden;
 }
-p[id^=descriptionP]{
+
+p[id^=descriptionP] {
     font-size: 1.4em;
     text-align: center;
     margin-top: 0;
 
 }
-p[id=descriptionPa]{
+
+p[id=descriptionPa] {
     font-size: 2.3em;
     margin-bottom: -4%;
 }
@@ -199,26 +212,31 @@ p[id=descriptionPa]{
 .opacityshow {
     color: rgb(44, 44, 44, 1);
 }
-.divFlexChildrenBoxDown h3{
+
+.divFlexChildrenBoxDown h3 {
     margin: 0px;
     color: #55809E;
     font-size: 153%;
     font-weight: 500;
 }
-.divFlexChildrenBoxDown h4{
+
+.divFlexChildrenBoxDown h4 {
     margin: 0px;
 }
-.divFlexChildrenBoxDown p{
+
+.divFlexChildrenBoxDown p {
     margin: -1% 0% 0% 0%;
-        font-size: 103%;
+    font-size: 103%;
 }
 
 .fakebold
+
 /*adjusts text size to look "like bold"*/
     {
     font-size: 1.4em;
 }
 
+/* footer settings*/
 footer[class^=footer] {
     height: 170px;
     background-color: #171717;
@@ -229,7 +247,8 @@ div[class=footerCopyRight] {
     text-align: center;
     margin-top: 2%;
 }
-footer > .navbar{
+
+footer>.navbar {
     background-color: #171717;
 }
 

@@ -1,0 +1,111 @@
+@media screen and (max-width: 850px) and (min-width: 495px) {
+    .divSite {
+        max-width:100%;
+}
+}
+
+@media screen and (max-width: 750px) and (min-width: 495px) {
+    #dishidden {
+        display: none;
+    }
+    .divSite {
+        max-width:100%;
+}
+}
+@media screen and (max-width: 620px) and (min-width: 495px) {
+    #resizeSmaller {
+        font-size: 2.3em;
+    }
+
+    .textOnImg {
+        font-size: 170%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .divFlexChildren>label {
+        font-size: 90%;
+    }
+
+    #disHidden {
+        display: none;
+    }
+
+    .flexTextInput {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 495px) {
+
+    html>body p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    button,
+    select,
+    label {
+        font-size: 120% !important;
+    }
+    .divSite {
+        max-width:100%;
+        background-color: #ffffff;
+}
+
+
+    #disHiddenSmall {
+        display: none;
+    }
+    #visHiddenSmall {
+        visibility: hidden;
+    }
+
+    .divFlexChildren>label {
+        font-size: 85% !important;
+    }
+
+    #resizeSmaller {
+        font-size: 1.5em !important;
+    }
+
+    .textOnImg {
+        font-size: 120% !important;
+        color: black;
+    }
+}
+
+@for $i from 1 through 65 {
+    @media screen and (max-width: 350px - ($i*1.5)) {
+
+        html>body p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        button,
+        select,
+        label {
+            font-size: 120% - ($i*0.3) !important;
+        }
+
+        .divFlexChildren>label {
+            font-size: 85% - ($i*0.1) !important;
+        }
+
+        #resizeSmaller {
+            font-size: 130% - ($i*0.1) !important;
+        }
+
+        .textOnImg {
+            font-size: 110% - ($i*0.5) !important;
+        }
+    }
+
+
+}
