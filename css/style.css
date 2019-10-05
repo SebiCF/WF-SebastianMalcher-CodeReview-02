@@ -255,3 +255,18 @@ footer>.navbar {
 #footerlogo {
     margin-top: 17%;
 }
+
+/* hover effetcs*/
+input:hover{
+    opacity: 0.6;
+}
+
+button:hover{
+        opacity: 0.6;
+}
+a:hover{
+        opacity: 0.6;
+}
+select:hover{
+        opacity: 0.6;
+}
