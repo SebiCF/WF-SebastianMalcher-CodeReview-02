@@ -15,7 +15,7 @@ function calculateInsurance() {
     let insurance;
     document.getElementById("calcResult").style.visibility = "visible";
     try {
-        if (name === "") throw "Name ";
+        if (name === "") throw "Name ";if (isNaN(insurance)) throw "Age or Horsepower ";
     } catch (err) {
         document.getElementById("calcResult").innerHTML = err + "can not be empty!";
     }
@@ -30,11 +30,11 @@ function calculateInsurance() {
     let uppername = capitalizeFirstChar(name);
     document.getElementById("calcResult").innerHTML = uppername + ", your insurance costs " + insurance + "€.";
 
-    try {
-        if (isNaN(insurance)) throw "Age or Horsepower ";
-    } catch (err) {
-        document.getElementById("calcResult").innerHTML = err + "can not be empty!";
-    }
+try {
+
+} catch (err) {
+document.getElementById("calcResult").innerHTML = err + "can not be empty!";
+}
 }
 
 function capitalizeFirstChar(name) {
