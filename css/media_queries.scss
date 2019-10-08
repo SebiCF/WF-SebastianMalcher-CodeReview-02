@@ -95,8 +95,8 @@
     width: 75%;
 }
 }
-@for $i from 1 through 65 {
-    @media screen and (max-width: 350px - ($i*1.5)) {
+@for $i from 1 through 30 {
+    @media screen and (max-width: 350px - $i*7) {
 
         html>body p,
         h1,
@@ -112,15 +112,22 @@
         }
 
         .divFlexChildren>label {
-            font-size: 85% - ($i*0.1) !important;
+            font-size: 85% - ($i*0.2) !important;
         }
 
         #resizeSmaller {
-            font-size: 130% - ($i*0.1) !important;
+            font-size: 130% - ($i*0.3) !important;
         }
 
         .textOnImg {
-            font-size: 110% - ($i*0.5) !important;
+            font-size: 110% - ($i*0.3) !important;
+        }
+
+        .navbar {
+            font-size: 110% - ($i*0.3) !important;
+        }
+        .form {
+            margin-top: -55% + ($i*0.3);
         }
     }
 

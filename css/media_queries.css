@@ -67,7 +67,7 @@
 @media screen and (max-width: 200px) {
   .flexSubmit > button {
     width: 75%; } }
-@media screen and (max-width: 348.5px) {
+@media screen and (max-width: 343px) {
   html > body p,
   h1,
   h2,
@@ -81,14 +81,20 @@
     font-size: 119.7% !important; }
 
   .divFlexChildren > label {
-    font-size: 84.9% !important; }
+    font-size: 84.8% !important; }
 
   #resizeSmaller {
-    font-size: 129.9% !important; }
+    font-size: 129.7% !important; }
 
   .textOnImg {
-    font-size: 109.5% !important; } }
-@media screen and (max-width: 347px) {
+    font-size: 109.7% !important; }
+
+  .navbar {
+    font-size: 109.7% !important; }
+
+  .form {
+    margin-top: -54.7%; } }
+@media screen and (max-width: 336px) {
   html > body p,
   h1,
   h2,
@@ -102,14 +108,20 @@
     font-size: 119.4% !important; }
 
   .divFlexChildren > label {
-    font-size: 84.8% !important; }
+    font-size: 84.6% !important; }
 
   #resizeSmaller {
-    font-size: 129.8% !important; }
+    font-size: 129.4% !important; }
 
   .textOnImg {
-    font-size: 109% !important; } }
-@media screen and (max-width: 345.5px) {
+    font-size: 109.4% !important; }
+
+  .navbar {
+    font-size: 109.4% !important; }
+
+  .form {
+    margin-top: -54.4%; } }
+@media screen and (max-width: 329px) {
   html > body p,
   h1,
   h2,
@@ -123,14 +135,20 @@
     font-size: 119.1% !important; }
 
   .divFlexChildren > label {
-    font-size: 84.7% !important; }
+    font-size: 84.4% !important; }
 
   #resizeSmaller {
-    font-size: 129.7% !important; }
+    font-size: 129.1% !important; }
 
   .textOnImg {
-    font-size: 108.5% !important; } }
-@media screen and (max-width: 344px) {
+    font-size: 109.1% !important; }
+
+  .navbar {
+    font-size: 109.1% !important; }
+
+  .form {
+    margin-top: -54.1%; } }
+@media screen and (max-width: 322px) {
   html > body p,
   h1,
   h2,
@@ -144,14 +162,20 @@
     font-size: 118.8% !important; }
 
   .divFlexChildren > label {
-    font-size: 84.6% !important; }
+    font-size: 84.2% !important; }
 
   #resizeSmaller {
-    font-size: 129.6% !important; }
+    font-size: 128.8% !important; }
 
   .textOnImg {
-    font-size: 108% !important; } }
-@media screen and (max-width: 342.5px) {
+    font-size: 108.8% !important; }
+
+  .navbar {
+    font-size: 108.8% !important; }
+
+  .form {
+    margin-top: -53.8%; } }
+@media screen and (max-width: 315px) {
   html > body p,
   h1,
   h2,
@@ -165,14 +189,20 @@
     font-size: 118.5% !important; }
 
   .divFlexChildren > label {
-    font-size: 84.5% !important; }
+    font-size: 84% !important; }
 
   #resizeSmaller {
-    font-size: 129.5% !important; }
+    font-size: 128.5% !important; }
 
   .textOnImg {
-    font-size: 107.5% !important; } }
-@media screen and (max-width: 341px) {
+    font-size: 108.5% !important; }
+
+  .navbar {
+    font-size: 108.5% !important; }
+
+  .form {
+    margin-top: -53.5%; } }
+@media screen and (max-width: 308px) {
   html > body p,
   h1,
   h2,
@@ -186,14 +216,20 @@
     font-size: 118.2% !important; }
 
   .divFlexChildren > label {
-    font-size: 84.4% !important; }
+    font-size: 83.8% !important; }
 
   #resizeSmaller {
-    font-size: 129.4% !important; }
+    font-size: 128.2% !important; }
 
   .textOnImg {
-    font-size: 107% !important; } }
-@media screen and (max-width: 339.5px) {
+    font-size: 108.2% !important; }
+
+  .navbar {
+    font-size: 108.2% !important; }
+
+  .form {
+    margin-top: -53.2%; } }
+@media screen and (max-width: 301px) {
   html > body p,
   h1,
   h2,
@@ -207,14 +243,20 @@
     font-size: 117.9% !important; }
 
   .divFlexChildren > label {
-    font-size: 84.3% !important; }
+    font-size: 83.6% !important; }
 
   #resizeSmaller {
-    font-size: 129.3% !important; }
+    font-size: 127.9% !important; }
 
   .textOnImg {
-    font-size: 106.5% !important; } }
-@media screen and (max-width: 338px) {
+    font-size: 107.9% !important; }
+
+  .navbar {
+    font-size: 107.9% !important; }
+
+  .form {
+    margin-top: -52.9%; } }
+@media screen and (max-width: 294px) {
   html > body p,
   h1,
   h2,
@@ -228,14 +270,20 @@
     font-size: 117.6% !important; }
 
   .divFlexChildren > label {
-    font-size: 84.2% !important; }
+    font-size: 83.4% !important; }
 
   #resizeSmaller {
-    font-size: 129.2% !important; }
+    font-size: 127.6% !important; }
 
   .textOnImg {
-    font-size: 106% !important; } }
-@media screen and (max-width: 336.5px) {
+    font-size: 107.6% !important; }
+
+  .navbar {
+    font-size: 107.6% !important; }
+
+  .form {
+    margin-top: -52.6%; } }
+@media screen and (max-width: 287px) {
   html > body p,
   h1,
   h2,
@@ -249,14 +297,20 @@
     font-size: 117.3% !important; }
 
   .divFlexChildren > label {
-    font-size: 84.1% !important; }
+    font-size: 83.2% !important; }
 
   #resizeSmaller {
-    font-size: 129.1% !important; }
+    font-size: 127.3% !important; }
 
   .textOnImg {
-    font-size: 105.5% !important; } }
-@media screen and (max-width: 335px) {
+    font-size: 107.3% !important; }
+
+  .navbar {
+    font-size: 107.3% !important; }
+
+  .form {
+    margin-top: -52.3%; } }
+@media screen and (max-width: 280px) {
   html > body p,
   h1,
   h2,
@@ -270,14 +324,20 @@
     font-size: 117% !important; }
 
   .divFlexChildren > label {
-    font-size: 84% !important; }
+    font-size: 83% !important; }
 
   #resizeSmaller {
-    font-size: 129% !important; }
+    font-size: 127% !important; }
 
   .textOnImg {
-    font-size: 105% !important; } }
-@media screen and (max-width: 333.5px) {
+    font-size: 107% !important; }
+
+  .navbar {
+    font-size: 107% !important; }
+
+  .form {
+    margin-top: -52%; } }
+@media screen and (max-width: 273px) {
   html > body p,
   h1,
   h2,
@@ -291,14 +351,20 @@
     font-size: 116.7% !important; }
 
   .divFlexChildren > label {
-    font-size: 83.9% !important; }
+    font-size: 82.8% !important; }
 
   #resizeSmaller {
-    font-size: 128.9% !important; }
+    font-size: 126.7% !important; }
 
   .textOnImg {
-    font-size: 104.5% !important; } }
-@media screen and (max-width: 332px) {
+    font-size: 106.7% !important; }
+
+  .navbar {
+    font-size: 106.7% !important; }
+
+  .form {
+    margin-top: -51.7%; } }
+@media screen and (max-width: 266px) {
   html > body p,
   h1,
   h2,
@@ -312,14 +378,20 @@
     font-size: 116.4% !important; }
 
   .divFlexChildren > label {
-    font-size: 83.8% !important; }
+    font-size: 82.6% !important; }
 
   #resizeSmaller {
-    font-size: 128.8% !important; }
+    font-size: 126.4% !important; }
 
   .textOnImg {
-    font-size: 104% !important; } }
-@media screen and (max-width: 330.5px) {
+    font-size: 106.4% !important; }
+
+  .navbar {
+    font-size: 106.4% !important; }
+
+  .form {
+    margin-top: -51.4%; } }
+@media screen and (max-width: 259px) {
   html > body p,
   h1,
   h2,
@@ -333,14 +405,20 @@
     font-size: 116.1% !important; }
 
   .divFlexChildren > label {
-    font-size: 83.7% !important; }
+    font-size: 82.4% !important; }
 
   #resizeSmaller {
-    font-size: 128.7% !important; }
+    font-size: 126.1% !important; }
 
   .textOnImg {
-    font-size: 103.5% !important; } }
-@media screen and (max-width: 329px) {
+    font-size: 106.1% !important; }
+
+  .navbar {
+    font-size: 106.1% !important; }
+
+  .form {
+    margin-top: -51.1%; } }
+@media screen and (max-width: 252px) {
   html > body p,
   h1,
   h2,
@@ -354,14 +432,20 @@
     font-size: 115.8% !important; }
 
   .divFlexChildren > label {
-    font-size: 83.6% !important; }
+    font-size: 82.2% !important; }
 
   #resizeSmaller {
-    font-size: 128.6% !important; }
+    font-size: 125.8% !important; }
 
   .textOnImg {
-    font-size: 103% !important; } }
-@media screen and (max-width: 327.5px) {
+    font-size: 105.8% !important; }
+
+  .navbar {
+    font-size: 105.8% !important; }
+
+  .form {
+    margin-top: -50.8%; } }
+@media screen and (max-width: 245px) {
   html > body p,
   h1,
   h2,
@@ -375,14 +459,20 @@
     font-size: 115.5% !important; }
 
   .divFlexChildren > label {
-    font-size: 83.5% !important; }
+    font-size: 82% !important; }
 
   #resizeSmaller {
-    font-size: 128.5% !important; }
+    font-size: 125.5% !important; }
 
   .textOnImg {
-    font-size: 102.5% !important; } }
-@media screen and (max-width: 326px) {
+    font-size: 105.5% !important; }
+
+  .navbar {
+    font-size: 105.5% !important; }
+
+  .form {
+    margin-top: -50.5%; } }
+@media screen and (max-width: 238px) {
   html > body p,
   h1,
   h2,
@@ -396,14 +486,20 @@
     font-size: 115.2% !important; }
 
   .divFlexChildren > label {
-    font-size: 83.4% !important; }
+    font-size: 81.8% !important; }
 
   #resizeSmaller {
-    font-size: 128.4% !important; }
+    font-size: 125.2% !important; }
 
   .textOnImg {
-    font-size: 102% !important; } }
-@media screen and (max-width: 324.5px) {
+    font-size: 105.2% !important; }
+
+  .navbar {
+    font-size: 105.2% !important; }
+
+  .form {
+    margin-top: -50.2%; } }
+@media screen and (max-width: 231px) {
   html > body p,
   h1,
   h2,
@@ -417,14 +513,20 @@
     font-size: 114.9% !important; }
 
   .divFlexChildren > label {
-    font-size: 83.3% !important; }
+    font-size: 81.6% !important; }
 
   #resizeSmaller {
-    font-size: 128.3% !important; }
+    font-size: 124.9% !important; }
 
   .textOnImg {
-    font-size: 101.5% !important; } }
-@media screen and (max-width: 323px) {
+    font-size: 104.9% !important; }
+
+  .navbar {
+    font-size: 104.9% !important; }
+
+  .form {
+    margin-top: -49.9%; } }
+@media screen and (max-width: 224px) {
   html > body p,
   h1,
   h2,
@@ -438,14 +540,20 @@
     font-size: 114.6% !important; }
 
   .divFlexChildren > label {
-    font-size: 83.2% !important; }
+    font-size: 81.4% !important; }
 
   #resizeSmaller {
-    font-size: 128.2% !important; }
+    font-size: 124.6% !important; }
 
   .textOnImg {
-    font-size: 101% !important; } }
-@media screen and (max-width: 321.5px) {
+    font-size: 104.6% !important; }
+
+  .navbar {
+    font-size: 104.6% !important; }
+
+  .form {
+    margin-top: -49.6%; } }
+@media screen and (max-width: 217px) {
   html > body p,
   h1,
   h2,
@@ -459,14 +567,20 @@
     font-size: 114.3% !important; }
 
   .divFlexChildren > label {
-    font-size: 83.1% !important; }
+    font-size: 81.2% !important; }
 
   #resizeSmaller {
-    font-size: 128.1% !important; }
+    font-size: 124.3% !important; }
 
   .textOnImg {
-    font-size: 100.5% !important; } }
-@media screen and (max-width: 320px) {
+    font-size: 104.3% !important; }
+
+  .navbar {
+    font-size: 104.3% !important; }
+
+  .form {
+    margin-top: -49.3%; } }
+@media screen and (max-width: 210px) {
   html > body p,
   h1,
   h2,
@@ -480,14 +594,20 @@
     font-size: 114% !important; }
 
   .divFlexChildren > label {
-    font-size: 83% !important; }
+    font-size: 81% !important; }
 
   #resizeSmaller {
-    font-size: 128% !important; }
+    font-size: 124% !important; }
 
   .textOnImg {
-    font-size: 100% !important; } }
-@media screen and (max-width: 318.5px) {
+    font-size: 104% !important; }
+
+  .navbar {
+    font-size: 104% !important; }
+
+  .form {
+    margin-top: -49%; } }
+@media screen and (max-width: 203px) {
   html > body p,
   h1,
   h2,
@@ -501,14 +621,20 @@
     font-size: 113.7% !important; }
 
   .divFlexChildren > label {
-    font-size: 82.9% !important; }
+    font-size: 80.8% !important; }
 
   #resizeSmaller {
-    font-size: 127.9% !important; }
+    font-size: 123.7% !important; }
 
   .textOnImg {
-    font-size: 99.5% !important; } }
-@media screen and (max-width: 317px) {
+    font-size: 103.7% !important; }
+
+  .navbar {
+    font-size: 103.7% !important; }
+
+  .form {
+    margin-top: -48.7%; } }
+@media screen and (max-width: 196px) {
   html > body p,
   h1,
   h2,
@@ -522,14 +648,20 @@
     font-size: 113.4% !important; }
 
   .divFlexChildren > label {
-    font-size: 82.8% !important; }
+    font-size: 80.6% !important; }
 
   #resizeSmaller {
-    font-size: 127.8% !important; }
+    font-size: 123.4% !important; }
 
   .textOnImg {
-    font-size: 99% !important; } }
-@media screen and (max-width: 315.5px) {
+    font-size: 103.4% !important; }
+
+  .navbar {
+    font-size: 103.4% !important; }
+
+  .form {
+    margin-top: -48.4%; } }
+@media screen and (max-width: 189px) {
   html > body p,
   h1,
   h2,
@@ -543,14 +675,20 @@
     font-size: 113.1% !important; }
 
   .divFlexChildren > label {
-    font-size: 82.7% !important; }
+    font-size: 80.4% !important; }
 
   #resizeSmaller {
-    font-size: 127.7% !important; }
+    font-size: 123.1% !important; }
 
   .textOnImg {
-    font-size: 98.5% !important; } }
-@media screen and (max-width: 314px) {
+    font-size: 103.1% !important; }
+
+  .navbar {
+    font-size: 103.1% !important; }
+
+  .form {
+    margin-top: -48.1%; } }
+@media screen and (max-width: 182px) {
   html > body p,
   h1,
   h2,
@@ -564,14 +702,20 @@
     font-size: 112.8% !important; }
 
   .divFlexChildren > label {
-    font-size: 82.6% !important; }
+    font-size: 80.2% !important; }
 
   #resizeSmaller {
-    font-size: 127.6% !important; }
+    font-size: 122.8% !important; }
 
   .textOnImg {
-    font-size: 98% !important; } }
-@media screen and (max-width: 312.5px) {
+    font-size: 102.8% !important; }
+
+  .navbar {
+    font-size: 102.8% !important; }
+
+  .form {
+    margin-top: -47.8%; } }
+@media screen and (max-width: 175px) {
   html > body p,
   h1,
   h2,
@@ -585,14 +729,20 @@
     font-size: 112.5% !important; }
 
   .divFlexChildren > label {
-    font-size: 82.5% !important; }
+    font-size: 80% !important; }
 
   #resizeSmaller {
-    font-size: 127.5% !important; }
+    font-size: 122.5% !important; }
 
   .textOnImg {
-    font-size: 97.5% !important; } }
-@media screen and (max-width: 311px) {
+    font-size: 102.5% !important; }
+
+  .navbar {
+    font-size: 102.5% !important; }
+
+  .form {
+    margin-top: -47.5%; } }
+@media screen and (max-width: 168px) {
   html > body p,
   h1,
   h2,
@@ -606,14 +756,20 @@
     font-size: 112.2% !important; }
 
   .divFlexChildren > label {
-    font-size: 82.4% !important; }
+    font-size: 79.8% !important; }
 
   #resizeSmaller {
-    font-size: 127.4% !important; }
+    font-size: 122.2% !important; }
 
   .textOnImg {
-    font-size: 97% !important; } }
-@media screen and (max-width: 309.5px) {
+    font-size: 102.2% !important; }
+
+  .navbar {
+    font-size: 102.2% !important; }
+
+  .form {
+    margin-top: -47.2%; } }
+@media screen and (max-width: 161px) {
   html > body p,
   h1,
   h2,
@@ -627,14 +783,20 @@
     font-size: 111.9% !important; }
 
   .divFlexChildren > label {
-    font-size: 82.3% !important; }
+    font-size: 79.6% !important; }
 
   #resizeSmaller {
-    font-size: 127.3% !important; }
+    font-size: 121.9% !important; }
 
   .textOnImg {
-    font-size: 96.5% !important; } }
-@media screen and (max-width: 308px) {
+    font-size: 101.9% !important; }
+
+  .navbar {
+    font-size: 101.9% !important; }
+
+  .form {
+    margin-top: -46.9%; } }
+@media screen and (max-width: 154px) {
   html > body p,
   h1,
   h2,
@@ -648,14 +810,20 @@
     font-size: 111.6% !important; }
 
   .divFlexChildren > label {
-    font-size: 82.2% !important; }
+    font-size: 79.4% !important; }
 
   #resizeSmaller {
-    font-size: 127.2% !important; }
+    font-size: 121.6% !important; }
 
   .textOnImg {
-    font-size: 96% !important; } }
-@media screen and (max-width: 306.5px) {
+    font-size: 101.6% !important; }
+
+  .navbar {
+    font-size: 101.6% !important; }
+
+  .form {
+    margin-top: -46.6%; } }
+@media screen and (max-width: 147px) {
   html > body p,
   h1,
   h2,
@@ -669,14 +837,20 @@
     font-size: 111.3% !important; }
 
   .divFlexChildren > label {
-    font-size: 82.1% !important; }
+    font-size: 79.2% !important; }
 
   #resizeSmaller {
-    font-size: 127.1% !important; }
+    font-size: 121.3% !important; }
 
   .textOnImg {
-    font-size: 95.5% !important; } }
-@media screen and (max-width: 305px) {
+    font-size: 101.3% !important; }
+
+  .navbar {
+    font-size: 101.3% !important; }
+
+  .form {
+    margin-top: -46.3%; } }
+@media screen and (max-width: 140px) {
   html > body p,
   h1,
   h2,
@@ -690,747 +864,18 @@
     font-size: 111% !important; }
 
   .divFlexChildren > label {
-    font-size: 82% !important; }
-
-  #resizeSmaller {
-    font-size: 127% !important; }
-
-  .textOnImg {
-    font-size: 95% !important; } }
-@media screen and (max-width: 303.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 110.7% !important; }
-
-  .divFlexChildren > label {
-    font-size: 81.9% !important; }
-
-  #resizeSmaller {
-    font-size: 126.9% !important; }
-
-  .textOnImg {
-    font-size: 94.5% !important; } }
-@media screen and (max-width: 302px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 110.4% !important; }
-
-  .divFlexChildren > label {
-    font-size: 81.8% !important; }
-
-  #resizeSmaller {
-    font-size: 126.8% !important; }
-
-  .textOnImg {
-    font-size: 94% !important; } }
-@media screen and (max-width: 300.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 110.1% !important; }
-
-  .divFlexChildren > label {
-    font-size: 81.7% !important; }
-
-  #resizeSmaller {
-    font-size: 126.7% !important; }
-
-  .textOnImg {
-    font-size: 93.5% !important; } }
-@media screen and (max-width: 299px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 109.8% !important; }
-
-  .divFlexChildren > label {
-    font-size: 81.6% !important; }
-
-  #resizeSmaller {
-    font-size: 126.6% !important; }
-
-  .textOnImg {
-    font-size: 93% !important; } }
-@media screen and (max-width: 297.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 109.5% !important; }
-
-  .divFlexChildren > label {
-    font-size: 81.5% !important; }
-
-  #resizeSmaller {
-    font-size: 126.5% !important; }
-
-  .textOnImg {
-    font-size: 92.5% !important; } }
-@media screen and (max-width: 296px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 109.2% !important; }
-
-  .divFlexChildren > label {
-    font-size: 81.4% !important; }
-
-  #resizeSmaller {
-    font-size: 126.4% !important; }
-
-  .textOnImg {
-    font-size: 92% !important; } }
-@media screen and (max-width: 294.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 108.9% !important; }
-
-  .divFlexChildren > label {
-    font-size: 81.3% !important; }
-
-  #resizeSmaller {
-    font-size: 126.3% !important; }
-
-  .textOnImg {
-    font-size: 91.5% !important; } }
-@media screen and (max-width: 293px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 108.6% !important; }
-
-  .divFlexChildren > label {
-    font-size: 81.2% !important; }
-
-  #resizeSmaller {
-    font-size: 126.2% !important; }
-
-  .textOnImg {
-    font-size: 91% !important; } }
-@media screen and (max-width: 291.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 108.3% !important; }
-
-  .divFlexChildren > label {
-    font-size: 81.1% !important; }
-
-  #resizeSmaller {
-    font-size: 126.1% !important; }
-
-  .textOnImg {
-    font-size: 90.5% !important; } }
-@media screen and (max-width: 290px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 108% !important; }
-
-  .divFlexChildren > label {
-    font-size: 81% !important; }
-
-  #resizeSmaller {
-    font-size: 126% !important; }
-
-  .textOnImg {
-    font-size: 90% !important; } }
-@media screen and (max-width: 288.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 107.7% !important; }
-
-  .divFlexChildren > label {
-    font-size: 80.9% !important; }
-
-  #resizeSmaller {
-    font-size: 125.9% !important; }
-
-  .textOnImg {
-    font-size: 89.5% !important; } }
-@media screen and (max-width: 287px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 107.4% !important; }
-
-  .divFlexChildren > label {
-    font-size: 80.8% !important; }
-
-  #resizeSmaller {
-    font-size: 125.8% !important; }
-
-  .textOnImg {
-    font-size: 89% !important; } }
-@media screen and (max-width: 285.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 107.1% !important; }
-
-  .divFlexChildren > label {
-    font-size: 80.7% !important; }
-
-  #resizeSmaller {
-    font-size: 125.7% !important; }
-
-  .textOnImg {
-    font-size: 88.5% !important; } }
-@media screen and (max-width: 284px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 106.8% !important; }
-
-  .divFlexChildren > label {
-    font-size: 80.6% !important; }
-
-  #resizeSmaller {
-    font-size: 125.6% !important; }
-
-  .textOnImg {
-    font-size: 88% !important; } }
-@media screen and (max-width: 282.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 106.5% !important; }
-
-  .divFlexChildren > label {
-    font-size: 80.5% !important; }
-
-  #resizeSmaller {
-    font-size: 125.5% !important; }
-
-  .textOnImg {
-    font-size: 87.5% !important; } }
-@media screen and (max-width: 281px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 106.2% !important; }
-
-  .divFlexChildren > label {
-    font-size: 80.4% !important; }
-
-  #resizeSmaller {
-    font-size: 125.4% !important; }
-
-  .textOnImg {
-    font-size: 87% !important; } }
-@media screen and (max-width: 279.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 105.9% !important; }
-
-  .divFlexChildren > label {
-    font-size: 80.3% !important; }
-
-  #resizeSmaller {
-    font-size: 125.3% !important; }
-
-  .textOnImg {
-    font-size: 86.5% !important; } }
-@media screen and (max-width: 278px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 105.6% !important; }
-
-  .divFlexChildren > label {
-    font-size: 80.2% !important; }
-
-  #resizeSmaller {
-    font-size: 125.2% !important; }
-
-  .textOnImg {
-    font-size: 86% !important; } }
-@media screen and (max-width: 276.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 105.3% !important; }
-
-  .divFlexChildren > label {
-    font-size: 80.1% !important; }
-
-  #resizeSmaller {
-    font-size: 125.1% !important; }
-
-  .textOnImg {
-    font-size: 85.5% !important; } }
-@media screen and (max-width: 275px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 105% !important; }
-
-  .divFlexChildren > label {
-    font-size: 80% !important; }
-
-  #resizeSmaller {
-    font-size: 125% !important; }
-
-  .textOnImg {
-    font-size: 85% !important; } }
-@media screen and (max-width: 273.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 104.7% !important; }
-
-  .divFlexChildren > label {
-    font-size: 79.9% !important; }
-
-  #resizeSmaller {
-    font-size: 124.9% !important; }
-
-  .textOnImg {
-    font-size: 84.5% !important; } }
-@media screen and (max-width: 272px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 104.4% !important; }
-
-  .divFlexChildren > label {
-    font-size: 79.8% !important; }
-
-  #resizeSmaller {
-    font-size: 124.8% !important; }
-
-  .textOnImg {
-    font-size: 84% !important; } }
-@media screen and (max-width: 270.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 104.1% !important; }
-
-  .divFlexChildren > label {
-    font-size: 79.7% !important; }
-
-  #resizeSmaller {
-    font-size: 124.7% !important; }
-
-  .textOnImg {
-    font-size: 83.5% !important; } }
-@media screen and (max-width: 269px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 103.8% !important; }
-
-  .divFlexChildren > label {
-    font-size: 79.6% !important; }
-
-  #resizeSmaller {
-    font-size: 124.6% !important; }
-
-  .textOnImg {
-    font-size: 83% !important; } }
-@media screen and (max-width: 267.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 103.5% !important; }
-
-  .divFlexChildren > label {
-    font-size: 79.5% !important; }
-
-  #resizeSmaller {
-    font-size: 124.5% !important; }
-
-  .textOnImg {
-    font-size: 82.5% !important; } }
-@media screen and (max-width: 266px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 103.2% !important; }
-
-  .divFlexChildren > label {
-    font-size: 79.4% !important; }
-
-  #resizeSmaller {
-    font-size: 124.4% !important; }
-
-  .textOnImg {
-    font-size: 82% !important; } }
-@media screen and (max-width: 264.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 102.9% !important; }
-
-  .divFlexChildren > label {
-    font-size: 79.3% !important; }
-
-  #resizeSmaller {
-    font-size: 124.3% !important; }
-
-  .textOnImg {
-    font-size: 81.5% !important; } }
-@media screen and (max-width: 263px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 102.6% !important; }
-
-  .divFlexChildren > label {
-    font-size: 79.2% !important; }
-
-  #resizeSmaller {
-    font-size: 124.2% !important; }
-
-  .textOnImg {
-    font-size: 81% !important; } }
-@media screen and (max-width: 261.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 102.3% !important; }
-
-  .divFlexChildren > label {
-    font-size: 79.1% !important; }
-
-  #resizeSmaller {
-    font-size: 124.1% !important; }
-
-  .textOnImg {
-    font-size: 80.5% !important; } }
-@media screen and (max-width: 260px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 102% !important; }
-
-  .divFlexChildren > label {
     font-size: 79% !important; }
 
   #resizeSmaller {
-    font-size: 124% !important; }
+    font-size: 121% !important; }
 
   .textOnImg {
-    font-size: 80% !important; } }
-@media screen and (max-width: 258.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 101.7% !important; }
+    font-size: 101% !important; }
 
-  .divFlexChildren > label {
-    font-size: 78.9% !important; }
+  .navbar {
+    font-size: 101% !important; }
 
-  #resizeSmaller {
-    font-size: 123.9% !important; }
-
-  .textOnImg {
-    font-size: 79.5% !important; } }
-@media screen and (max-width: 257px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 101.4% !important; }
-
-  .divFlexChildren > label {
-    font-size: 78.8% !important; }
-
-  #resizeSmaller {
-    font-size: 123.8% !important; }
-
-  .textOnImg {
-    font-size: 79% !important; } }
-@media screen and (max-width: 255.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 101.1% !important; }
-
-  .divFlexChildren > label {
-    font-size: 78.7% !important; }
-
-  #resizeSmaller {
-    font-size: 123.7% !important; }
-
-  .textOnImg {
-    font-size: 78.5% !important; } }
-@media screen and (max-width: 254px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 100.8% !important; }
-
-  .divFlexChildren > label {
-    font-size: 78.6% !important; }
-
-  #resizeSmaller {
-    font-size: 123.6% !important; }
-
-  .textOnImg {
-    font-size: 78% !important; } }
-@media screen and (max-width: 252.5px) {
-  html > body p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  button,
-  select,
-  label {
-    font-size: 100.5% !important; }
-
-  .divFlexChildren > label {
-    font-size: 78.5% !important; }
-
-  #resizeSmaller {
-    font-size: 123.5% !important; }
-
-  .textOnImg {
-    font-size: 77.5% !important; } }
+  .form {
+    margin-top: -46%; } }
 
 /*# sourceMappingURL=media_queries.css.map */
