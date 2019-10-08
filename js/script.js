@@ -12,30 +12,35 @@ function calculateInsurance() {
     let age = parseInt(document.getElementById("age").value);
     let country = document.getElementById("country").value;
     let hp = parseInt(document.getElementById("horsePower").value);
-    let insurance;
+    
     document.getElementById("calcResult").style.visibility = "visible";
+    
     try {
-        if (name === "") throw "Name ";if (isNaN(insurance)) throw "Age or Horsepower ";
+        if (name == "") {throw "Name "};
+        if (isNaN(age)) {throw "Age "};
+        if (isNaN(hp)) {throw "Horsepower "};
     } catch (err) {
         document.getElementById("calcResult").innerHTML = err + "can not be empty!";
+        return;
     }
 
-    if (country == "Austria") {
+    let insurance = calcFormula(age,country,hp);
+    let uppername = capitalizeFirstChar(name);
+    document.getElementById("calcResult").innerHTML = uppername + ", your insurance costs " + insurance + "€.";
+
+
+}
+
+function calcFormula(age,country,hp){
+     if (country == "Austria") {
         insurance = hp * 100 / age + 50;
     } else if (country == "Hungary") {
         insurance = hp * 120 / age + 100;
     } else if (country == "Greece") {
         insurance = hp * 150 / (age + 3) + 50;
     }
-    let uppername = capitalizeFirstChar(name);
-    document.getElementById("calcResult").innerHTML = uppername + ", your insurance costs " + insurance + "€.";
-
-try {
-
-} catch (err) {
-document.getElementById("calcResult").innerHTML = err + "can not be empty!";
-}
-}
+    return insurance;
+    }
 
 function capitalizeFirstChar(name) {
     uppername = name[0].toUpperCase() + name.substring(1);
