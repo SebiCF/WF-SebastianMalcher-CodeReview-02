@@ -12,10 +12,16 @@
     font-size: 2.3em; }
 
   .textOnImg {
-    font-size: 170%; } }
+    font-size: 170%; }
+
+  .flexSubmit > button {
+    width: 45%; } }
 @media screen and (max-width: 520px) {
   .divFlexChildren > label {
     font-size: 90%; }
+
+  .flexSubmit > button {
+    width: 47%; }
 
   #disHidden {
     display: none; }
@@ -55,6 +61,12 @@
   .textOnImg {
     font-size: 120% !important;
     color: black; } }
+@media screen and (max-width: 300px) {
+  .flexSubmit > button {
+    width: 60%; } }
+@media screen and (max-width: 200px) {
+  .flexSubmit > button {
+    width: 75%; } }
 @media screen and (max-width: 348.5px) {
   html > body p,
   h1,

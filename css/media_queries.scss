@@ -20,12 +20,18 @@
     .textOnImg {
         font-size: 170%;
     }
+    .flexSubmit>button {
+        width: 45%;
+}
 }
 
 @media screen and (max-width: 520px) {
     .divFlexChildren>label {
         font-size: 90%;
     }
+    .flexSubmit>button {
+    width: 47%;
+}
 
     #disHidden {
         display: none;
@@ -77,7 +83,18 @@
         color: black;
     }
 }
+@media screen and (max-width: 300px) {
 
+.flexSubmit>button {
+    width: 60%;
+}
+}
+@media screen and (max-width: 200px) {
+
+.flexSubmit>button {
+    width: 75%;
+}
+}
 @for $i from 1 through 65 {
     @media screen and (max-width: 350px - ($i*1.5)) {
 
