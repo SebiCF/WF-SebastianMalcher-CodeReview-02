@@ -109,11 +109,6 @@ div[class=flexDown] {
     border: 1px solid rgb(222, 222, 222, 0.4);
 }
 
-.flexTextInput {
-    /* flexbox for textinputs*/
-    justify-content: space-around;
-
-}
 
 /* submit button adjustments*/
 .flexSubmit {
@@ -149,6 +144,9 @@ select {
     height: 60%;
     width: 90%;
     font-size: 1.1em;
+}
+#country {
+    height: 72%;
 }
 
 .divFlexChildren>select {

@@ -1,8 +1,12 @@
+.divSite{
+	background-image: linear-gradient(-144deg, #ded9d9f5,#3e3e3e,#ded9d9f5,#3e3e3e,#ded9d9f5,#3e3e3e,#ded9d9f5,#3e3e3e)
+}
+
 .articleHeading{
-	text-align: left;
-	margin-left: 5%;
-	font-weight: 500;
-	font-size: 130%;
+    margin-left: 5%;
+    font-weight: 500;
+    font-size: 163%;
+    color: black;
 }
 main > .flexArticle{
 	flex-direction: column;
@@ -46,5 +50,4 @@ width: 55%;
 	bottom: -11%;
 
 }
-
 
